@@ -8,6 +8,8 @@
 
 #import "ymViewController.h"
 
+#import <YMStart/YM1.h>
+
 @interface ymViewController ()
 
 @end
@@ -17,7 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [YM1 logMe];
+
 }
 
 - (void)didReceiveMemoryWarning

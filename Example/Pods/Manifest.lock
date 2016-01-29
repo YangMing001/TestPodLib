@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (1.0.5)
+  - Specta (1.0.5)
+  - YMStart (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - YMStart (from `../`)
+
+EXTERNAL SOURCES:
+  YMStart:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  YMStart: 0ee2252f0a07988c384338243497b7820d5bbfa3
+
+COCOAPODS: 0.37.2

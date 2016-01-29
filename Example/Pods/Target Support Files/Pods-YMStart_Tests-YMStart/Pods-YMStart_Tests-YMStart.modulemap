@@ -1,0 +1,6 @@
+framework module YMStart {
+  umbrella header "Pods-YMStart_Tests-YMStart-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "YMStart",
+  "version": "0.1.0",
+  "summary": "A short description of YMStart.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/YMStart",
+  "license": "MIT",
+  "authors": {
+    "YM": "yangming@1yd.me"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/YMStart.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "YMStart": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
