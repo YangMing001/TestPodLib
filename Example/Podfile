@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'YMStart_Example', :exclusive => true do
+  pod 'YMStart', :path => '../'
+end
+
+target 'YMStart_Tests', :exclusive => true do
+  pod 'YMStart', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+end
